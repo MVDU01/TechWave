@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/image/icone.png" type="image/png">
+    <title>Inscription - TechWave 2026</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Inscription TechWave 2026</h1>
+        <p class="slogan">Complétez le formulaire pour rejoindre l'événement 🚀</p>
+    </header>
+
+    <section class="cta">
+          <h2>Formulaire d'inscription</h2>
+
+          <form id="inscription-form" action="#" method="post" style="max-width:500px; margin:auto; text-align:left;">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required style="width:100%; padding:10px; margin-bottom:15px;"><br>
+
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required style="width:100%; padding:10px; margin-bottom:15px;"><br>
+
+            <label for="sexe">Sexe :</label><br>
+            <select id="sexe" name="sexe" required style="width:100%; padding:10px; margin-bottom:15px;">
+              <option value="">-- Sélectionnez --</option>
+              <option value="M">Masculin</option>
+              <option value="F">Féminin</option>
+            </select><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required style="width:100%; padding:10px; margin-bottom:15px;"><br>
+
+            <button type="submit" class="btn">Envoyer</button>
+            
+            <p id="confirmation-message">
+            ✅ Votre inscription a bien été envoyée. Merci et à bientôt sur TechWave 2026 !
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 TechWave Festival - Tous droits réservés.</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
